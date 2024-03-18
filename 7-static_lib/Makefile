@@ -4,7 +4,7 @@ LIB = libcalc.a
 SRC = lib/add.c lib/div.c lib/mul.c lib/sub.c
 OBJ = $(SRC:.c=.o)
 MAIN = main.c
-EXECUTABLE = my_program
+EXECUTABLE = calculate
 
 .PHONY: all clean
 
