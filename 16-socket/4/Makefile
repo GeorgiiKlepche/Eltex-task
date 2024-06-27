@@ -18,3 +18,6 @@ udp_rawsock: udp_rawsock.c functions.c functions.h
 
 clean:
 	rm -f $(TARGETS)
+
+style:
+	clang-format -style=Google -i *.c *.h
